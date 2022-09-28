@@ -32,7 +32,39 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.btn-toggle {
+  padding: 0px;
+}
+
+.btn-toggle i {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+.active i {
+  transform: rotate(90deg);
+}
+
+.btn-back-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  font-size: 30px;
+}
+
+.btn-back-to-top:hover{
+  transform: scale(1.1);
+}
+
+.btn-back-to-top:active{
+  transform: scale(1);
+}
+
